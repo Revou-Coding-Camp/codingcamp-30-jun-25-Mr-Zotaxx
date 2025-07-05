@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website perusahaan</title>
+    <link rel="stylesheet" href="css_ai.css"> </head>
+<body>
+  
+    <nav>
+        <div class="logo">Company</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#profile">Our Profile</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    
+    <section id="home" class="section">
+        <div class="banner">
+            <h1>HALO! <span id="user-name">User</span>, Selamat Datang Di Website</h1>
+            <p>Ini adalah projek website pertamaku</p>
+            <p class="contact-number">085xxxxxxxx<p>
+        </div>
+        
+        <div class="headquarter-section">
+            <h3>Our Headquarter</h3>
+        </div>
+
+        <div class="cities-container">
+            <div class="city-item">
+                <div class="circle"></div>
+                <span class="city-name">Jombang</span>
+            </div>
+            <div class="city-item">
+                <div class="circle"></div>
+                <span class="city-name">Kabuh</span>
+            </div>
+            <div class="city-item">
+                <div class="circle"></div>
+                <span class="city-name">Surabaya</span>
+            </div>
+        </div>
+
+        <div class="message-form">
+            <h2>Masukan Data Anda</h2>
+            <form id="message-us">
+                <div class="form-group">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="birth-date">Tanggal Lahir:</label>
+                    <input type="text" id="birth-date" required>
+                </div>
+                <div class="form-group">
+                    <label>Jenis Kelamin:</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="gender" value="Laki-laki" required> Laki-laki</label>
+                        <label><input type="radio" name="gender" value="Perempuan"> Perempuan</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        
+        <div class="form-output">
+            <h2>Submitted Data</h2>
+            <p><strong>Current time:</strong> <span id="current-time"></span></p>
+            <p><strong>Name:</strong> <span id="output-name"></span></p>
+            <p><strong>Tanggal Lahir:</strong> <span id="output-birth-date"></span></p>
+            <p><strong>Jenis Kelamin:</strong> <span id="output-gender"></span></p>
+            <p><strong>Pesan:</strong> <span id="output-message"></span></p>
+        </div>
+    </section>
+
+    
+    <section id="profile" class="section">
+        <div class="profile-banner">
+            <h1>Company Profile</h1>
+        </div>
+        
+        <div class="about-company">
+            <h2>About Our Company</h2>
+            <p>perusahaan yang bergerak di bidang konsumsi</p>
+        </div>
+        
+        <div class="vision-mission">
+            <div class="vision">
+                <h3>Vision</h3>
+                <p>Untuk Indonesia Raya</p>
+            </div>
+            <div class="mission">
+                <h3>Mission</h3>
+                <ul>
+                    <li>Pelayan keimanan</li>
+                    <li>Pelayan kemanusiaan</li>
+                    <li>Pelayan kealaman</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="jawa.js"></script>
+</body>
+</html>
